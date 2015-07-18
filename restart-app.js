@@ -1,6 +1,6 @@
 var forever = require('forever');
 
-  var child = new(forever.Monitor)('http-listener5.js', {
+  var child = new(forever.Monitor)('http-listener.js', {
     max: 3,
     silent: false,
     'killTree': false
